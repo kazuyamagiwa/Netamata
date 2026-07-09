@@ -1,0 +1,17 @@
+[project]
+name = "netamata"
+version = "0.1.0"
+description = "A graph discovery search engine"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "kazuyamagiwa", email = "author@example.com" },
+]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
